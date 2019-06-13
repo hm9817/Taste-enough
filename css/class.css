@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.bigbox .mine {
+  width: 100%;
+  height: 23.5rem; }
+  .bigbox .mine ul {
+    width: 95%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between; }
+    .bigbox .mine ul li {
+      width: 15%;
+      height: 100%; }
+    .bigbox .mine ul li:nth-child(1) div p {
+      font-size: 0.14rem;
+      color: #262626;
+      line-height: 0.5rem;
+      text-indent: 0.2rem; }
+    .bigbox .mine ul li:nth-child(2) img {
+      width: 98%;
+      height: 2.3rem;
+      margin-top: 0.2rem;
+      margin-left: 0.05rem; }
+    .bigbox .mine ul li:nth-child(2) .hot {
+      width: 100%;
+      height: 3.35rem;
+      position: relative; }
+      .bigbox .mine ul li:nth-child(2) .hot span {
+        top: -10%;
+        position: absolute;
+        color: gray;
+        font-size: 0.14rem; }
+      .bigbox .mine ul li:nth-child(2) .hot ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 30%;
+        margin-top: 0rem; }
+        .bigbox .mine ul li:nth-child(2) .hot ul li {
+          width: 30%;
+          text-align: center;
+          position: relative; }
+          .bigbox .mine ul li:nth-child(2) .hot ul li img {
+            position: absolute;
+            width: 0.4rem;
+            height: 0.5rem;
+            left: 35%;
+            top: -0.1rem; }
+          .bigbox .mine ul li:nth-child(2) .hot ul li p {
+            position: absolute;
+            font-size: 0.12rem;
+            top: 0.7rem;
+            left: 41%; }
+    .bigbox .mine ul li:nth-child(2) .gray_more {
+      width: 98%;
+      height: 2.5rem;
+      position: relative;
+      top: 0.25rem;
+      left: 0.05rem; }
+      .bigbox .mine ul li:nth-child(2) .gray_more span {
+        position: absolute;
+        color: gray;
+        font-size: 0.14rem; }
+      .bigbox .mine ul li:nth-child(2) .gray_more div {
+        position: absolute;
+        top: 0.2rem;
+        width: 100%;
+        height: 2.3rem;
+        background-color: lightgray; }
+
+/*# sourceMappingURL=class.css.map */

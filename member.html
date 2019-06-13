@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的订单-铂金会员</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui"/>
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+		<meta name="format-detection" content="telephone=no, email=no"/>
+		<link rel="stylesheet" href="css/member.css" />
+	</head>
+	<body>
+		<div class="bigbox">
+			<header>
+				<ul>
+					<li><a href="index.html" style="color: white;font-size: 0.38rem;text-decoration: none;display: flex;"><</a></li>
+					<li><p>铂金会员</p></li>
+					<li><img src="img/im/dian.png" style="right: 0rem;top: 0.15rem;"/></li>
+				</ul>
+			</header>
+			<section>
+				<div class="pro" style="display: block;">
+					<ul class="tabItems">
+						<li><a>专享区</a></li>
+						<li class="active"><a>免税区</a></li>
+						<li><a>运费券</a></li>
+						<li><a>专享服</a></li>
+					</ul>
+				</div>
+				<!--免税区-->
+				<div class="content">
+					<div id="free" class="free">
+						<ul>
+							<li>
+								<img src="img/pd/sf-6.jpg" alt="">
+								<p>KOBE LETTUCE 秋冬新款 女士日系甜美纯色半高领宽松套...</p>
+								<span>￥399.99<a>￥495.65</a><p>986评论</p></span>
+							</li>
+						</ul>
+					</div>
+						
+					<!--运费券-->
+					<div id="expense" class="free">
+						<ul>
+							<li>
+								<img src="img/pd/sf-7.jpg" alt="">
+								<p>KOBE LETTUCE 秋冬新款 女士日系甜美纯色半高领宽松套...</p>
+								<span>￥399.99<a>￥495.65</a><p>986评论</p></span>
+							</li>
+						</ul>
+					</div>
+					<!--专享服-->
+					<div id="vip" class="free">
+						<ul>
+							<li>
+								<img src="img/pd/sf-8.jpg" alt="">
+								<p>KOBE LETTUCE 秋冬新款 女士日系甜美纯色半高领宽松套...</p>
+								<span>￥399.99<a>￥495.65</a><p>986评论</p></span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</div>
+		<script type="text/javascript" src="js/rem.js" ></script>
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+	
+		<script>
+		 	$(window).load(function(){
+		        $(".content>div").eq(0).show().siblings().hide();
+		    });
+		    //点击不同的li,并添加相应的样式和显示对应的div内容，其他同级li，去掉相应的样式和隐藏对应的div内容：
+		
+		    $(".tabItems>li").click(function () {
+		        $(this).addClass("active").siblings().removeClass("active");
+		        var index = $(this).index();
+		        $(".content>div").eq(index).show().siblings().hide();
+		        $(this).css({"color":"red","width":"100%","border-bottom":"1px solid red"});
+		        $(this).siblings().css({"color":"gray","width":"100%","border-bottom":"1px solid #ffffff"});
+		         
+		        
+		    })
+
+  		</script>
+
+	</body>
+</html>

@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ ::-webkit-scrollbar {
+    display: none;
+    /*隐藏滚轮*/
+}
+
+@mixin jusbenn {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin jusaround {
+    display: flex;
+    justify-content: space-around;
+}
+
+@mixin flex1 {
+    display: flex;
+}
+
+@mixin ulbe {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    line-height: 0.5rem;
+    height: 0.5rem;
+    .shopping_top {
+        width: 99%;
+        margin-top: 0.05rem;
+        line-height: 0.3rem;
+        height: 0.3rem;
+        @include jusbenn;
+    }
+    .find_top {
+        width: 100%;
+        height: 0.5rem;
+        line-height: 0.5rem;
+        background-color: white;
+        ul {
+            width: auto;
+            white-space: nowrap;
+            overflow: auto;
+            list-style: none;
+            height: 0.5rem;
+            @include jusbenn;
+            font-size: 0.14rem;
+            list-style: none;
+            overflow-x: auto;
+            overflow-y: hidden;
+            li {
+                width: 25%;
+                margin-right: 3%;
+                display: inline-block;
+                //overflow-x: auto;
+                //overflow-y: hidden;
+            }
+        }
+    }
+}
+
+//section
+section {
+    margin-top: 0.8rem;
+}
+
+//science
+.find_sciencen {
+    width: 100%;
+    .find_science {
+        padding-top: 0.1rem;
+        width: 98%;
+        margin: auto;
+        @include jusbenn;
+        font-size: 0.16rem;
+        .find_science_span {
+            font-size: 0.16rem;
+            display: flex;
+            justify-content: flex-start;
+        }
+    }
+    .find_science1 {
+        width: 98%;
+        margin: auto;
+        margin-top: 0.1rem;
+        display: flex;
+        flex-direction: row;
+        img {
+            width: 20%;
+            height: 20%;
+            display: flex;
+            justify-content: flex-start;
+        }
+        .find_science1_p {
+            margin-left: 0.05rem;
+            font-size: 0.14rem;
+        }
+    }
+}
+
+//nissen
+.find_nissen {
+    width: 100%;
+    margin-bottom: 0.1rem;
+    ul {
+       
+        overflow-x: auto;
+        overflow-y: hidden;
+        width: auto;
+        white-space: nowrap;
+        overflow: auto;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        margin-top: -0.3rem;
+        li {
+            width:1.5rem;
+            margin-right: 4%;
+            display: inline-block;
+            a {
+                width:1rem;
+                img {
+                    width: 0.9rem;
+                    margin-left: 20%;
+                }
+                .find_nissen_p1 {
+                    width: 100%;
+                    font-size: 0.12rem;
+                    color: #333;
+                    
+                    display:block;
+                }
+                .find_nissen_p2 {
+                      display:block;
+                    width: 100%;
+                    @include jusbenn;
+                    .find_nissen_span1 {
+                        color: red;
+                        font-size: 0.14rem;
+                    }
+                    .find_nissen_span2 {
+                        text-decoration: line-through;
+                        font-size: 0.1rem;
+                        color: #999;
+                        margin-top: 0.07rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//min_pto
+.min_pro {
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 0.7rem;
+    //border: 0.01rem solid blueviolet;
+    ul {
+        @include ulbe;
+        height: 2.1rem;
+       // border: 0.01rem solid darkred;
+        margin-top: 0.1rem;
+        li {
+            width: 48%;
+            //border: 0.01rem solid darkred;
+            //text-align: center;
+            position: relative;
+            img {
+                position: absolute;
+                width: 80%;
+                height: 50%;
+            }
+            p {
+                font-size: 0.12rem;
+                position: absolute;
+                top: 70%;
+            }
+            span {
+                position: absolute;
+                top: 90%;
+                color: red;
+                font-size: 0.16rem;
+                a {
+                    color: gray;
+                    font-size: 0.12rem;
+                }
+                span {
+                    width: 40%;
+                     position: absolute;
+                     top: 10%;
+                                left: 105%;
+                    display: inline-block;
+                    color: lightgray;
+                    font-size: 0.1rem;
+                }
+            }
+        }
+    }
+}
+//footer
+    .footer{
+        margin-top: 1rem;
+        position: fixed;
+        bottom:0;
+        width: 100%;
+        height: 0.48rem;
+       background-color: white;
+        ul{
+            width: 3.25rem;
+            margin: 0 auto;
+            @include ulbe;
+            li{
+                width: 0.38rem;
+                position: relative;
+                img{
+                    position: absolute;
+                    top: 0.06rem;
+                }
+                p{
+                    position: absolute;
+                    top: 0.3rem;
+                    font-size: 0.12rem;
+                    color: gray;
+                }
+            }
+        }
+    }

@@ -1,0 +1,182 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+::-webkit-scrollbar {
+  display: none;
+  /*闅愯棌婊氳疆*/ }
+
+header {
+  width: 100%;
+  margin: auto;
+  line-height: 0.5rem;
+  height: 0.5rem; }
+  header .shopping_top {
+    width: 99%;
+    margin-top: 0.05rem;
+    line-height: 0.3rem;
+    height: 0.3rem;
+    display: flex;
+    justify-content: space-between; }
+  header .find_top {
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    background-color: white; }
+    header .find_top ul {
+      width: auto;
+      white-space: nowrap;
+      overflow: auto;
+      list-style: none;
+      height: 0.5rem;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.14rem;
+      list-style: none;
+      overflow-x: auto;
+      overflow-y: hidden; }
+      header .find_top ul li {
+        width: 25%;
+        margin-right: 3%;
+        display: inline-block; }
+
+section {
+  margin-top: 0.8rem; }
+
+.find_sciencen {
+  width: 100%; }
+  .find_sciencen .find_science {
+    padding-top: 0.1rem;
+    width: 98%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.16rem; }
+    .find_sciencen .find_science .find_science_span {
+      font-size: 0.16rem;
+      display: flex;
+      justify-content: flex-start; }
+  .find_sciencen .find_science1 {
+    width: 98%;
+    margin: auto;
+    margin-top: 0.1rem;
+    display: flex;
+    flex-direction: row; }
+    .find_sciencen .find_science1 img {
+      width: 20%;
+      height: 20%;
+      display: flex;
+      justify-content: flex-start; }
+    .find_sciencen .find_science1 .find_science1_p {
+      margin-left: 0.05rem;
+      font-size: 0.14rem; }
+
+.find_nissen {
+  width: 100%;
+  margin-bottom: 0.1rem; }
+  .find_nissen ul {
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: auto;
+    white-space: nowrap;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: -0.3rem; }
+    .find_nissen ul li {
+      width: 1.5rem;
+      margin-right: 4%;
+      display: inline-block; }
+      .find_nissen ul li a {
+        width: 1rem; }
+        .find_nissen ul li a img {
+          width: 0.9rem;
+          margin-left: 20%; }
+        .find_nissen ul li a .find_nissen_p1 {
+          width: 100%;
+          font-size: 0.12rem;
+          color: #333;
+          display: block; }
+        .find_nissen ul li a .find_nissen_p2 {
+          display: block;
+          width: 100%;
+          display: flex;
+          justify-content: space-between; }
+          .find_nissen ul li a .find_nissen_p2 .find_nissen_span1 {
+            color: red;
+            font-size: 0.14rem; }
+          .find_nissen ul li a .find_nissen_p2 .find_nissen_span2 {
+            text-decoration: line-through;
+            font-size: 0.1rem;
+            color: #999;
+            margin-top: 0.07rem; }
+
+.min_pro {
+  width: 98%;
+  margin: 0 auto;
+  margin-top: 0.7rem; }
+  .min_pro ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    height: 2.1rem;
+    margin-top: 0.1rem; }
+    .min_pro ul li {
+      width: 48%;
+      position: relative; }
+      .min_pro ul li img {
+        position: absolute;
+        width: 80%;
+        height: 50%; }
+      .min_pro ul li p {
+        font-size: 0.12rem;
+        position: absolute;
+        top: 70%; }
+      .min_pro ul li span {
+        position: absolute;
+        top: 90%;
+        color: red;
+        font-size: 0.16rem; }
+        .min_pro ul li span a {
+          color: gray;
+          font-size: 0.12rem; }
+        .min_pro ul li span span {
+          width: 40%;
+          position: absolute;
+          top: 10%;
+          left: 105%;
+          display: inline-block;
+          color: lightgray;
+          font-size: 0.1rem; }
+
+.footer {
+  margin-top: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 0.48rem;
+  background-color: white; }
+  .footer ul {
+    width: 3.25rem;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-between; }
+    .footer ul li {
+      width: 0.38rem;
+      position: relative; }
+      .footer ul li img {
+        position: absolute;
+        top: 0.06rem; }
+      .footer ul li p {
+        position: absolute;
+        top: 0.3rem;
+        font-size: 0.12rem;
+        color: gray; }
+
+/*# sourceMappingURL=find.css.map */

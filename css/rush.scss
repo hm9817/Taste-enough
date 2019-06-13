@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@mixin ulbe{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.bigbox{
+    width: 100%;
+    header{
+        width: 100%;
+        height: 0.5rem;
+        background-image: url(../img/im/bg1_01.png);
+        //background-size: 100% 300%;
+        ul{
+            width: 90%;
+            margin: 0 auto;
+            @include ulbe;
+            //border: 0.01rem solid blueviolet;
+            li{
+                position: relative;
+                line-height: 0.5rem;
+                //border: 0.01rem solid red;
+                img{
+                    position: absolute;
+                    //border: 0.01rem solid red;
+                }
+                p{
+                    font-size: 0.14rem;  
+                }
+            }
+        }
+    }
+    section{
+        width: 100%;
+        .pro{
+            width: 100%;
+            height: 0.4rem;
+           // border: 0.01rem solid red;
+            border-bottom: 0.01rem solid lightgray;
+        
+            ul{
+                width: 88%;
+                margin: 0 auto;
+                @include ulbe;
+                position: relative;
+                li{
+                    //line-height: 0.4rem;
+                    width: 20%;
+                   // border: 0.01rem solid red;
+                    p:nth-child(1){
+                        text-align: center;
+                        font-size: 0.16rem;
+                        color: gray;
+                        font-weight: bold;
+                    }
+                    p:nth-child(2){
+                        text-align: center;
+                        font-size: 0.12rem;
+                        color: gray;
+                    }
+                }
+            }
+        }
+        .hint{
+            width: 100%;
+            height: 0.4rem;
+            background-color: #FFF3DB;
+            p{
+                font-size: 0.14rem;
+                line-height: 0.4rem;
+                color: red;
+                text-indent: 0.4rem;
+            }
+        }
+        .product_pro{
+            width: 100%;
+            height: 6.58rem;
+            div{
+                width: 100%;
+                height: 1.4rem;
+                border-bottom: 0.01rem solid lightgray;
+                ul{
+                    @include ulbe;
+                    height: 100%;
+                    //border: 0.01rem solid darkred;
+                    li:nth-child(1){
+                        width: 20%;
+                        height: 100%;
+                       // border: 0.01rem solid darkred;
+                    }
+                    li:nth-child(2){
+                        width: 75%;
+                        height: 100%;
+                       // border: 0.01rem solid darkred;
+                    }
+                    li{
+                        position: relative;
+                        input{
+                            width: 0.74rem;
+                            height: 0.25rem;
+                            background-color: red;
+                            color: #ffffff;
+                            text-align: center;
+                            line-height: 0.25rem;
+                            border: 0;
+                            position: absolute;
+                            right: 0.1rem;
+                            top: 0.1rem;
+                            border-radius: 0.08rem 0.08rem;
+                        }
+                        img{
+                            position: absolute;
+                            width: 0.7rem;
+                            height: 0.7rem;
+                            bottom: 0.1rem;
+                            left: 0.1rem;
+                        }
+                        p{
+                            font-size: 0.14rem;
+                            color: gray;
+                            margin-top: 0.5rem;
+                        }
+                        span{
+                            position: absolute;
+                            color: red;
+                            font-size: 0.16rem;
+                            bottom: 0.2rem;
+                            a{
+                                font-size: 0.12rem;
+                                color: lightgray;
+                            }
+                            p{
+                                display: inline-block;
+                                font-size: 0.12rem;
+                                color: lightgray;
+                                margin-left: 1.3rem;
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+        #hidden1{
+            display: none;
+        }
+        #hidden2{
+            display: none;
+        }
+        #hidden3{
+            display: none;
+        }
+        #hidden4{
+            display: none;
+        }
+    }
+}

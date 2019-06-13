@@ -1,0 +1,61 @@
+*{margin: 0;padding: 0;}
+/*顶部*/
+.headpiece{width: 100%;font-family: "微软雅黑";height: 0.5rem; background-image: url(../img/ssx/bg1_01.png);background-size: 100% 100%;position: fixed;z-index: 3;}
+.headpiece_sbu{width: 100%;display: flex;justify-content: space-between;}
+.headpiece_sbu li{list-style: none;display: flex;margin: auto;margin-top: 0.15rem;color: white;}
+.headpiece_sbu li img{width: 0.30rem;height: 0.30rem;}
+.headpiece_sbu li p{font-size: 0.18rem;}
+/*地址*/
+.addres{width: 90%;margin: auto;display: flex;justify-content: space-between;}
+.addres_left ul{list-style: none;display: flex;justify-content: space-between;}
+.addres_left ul li{font-size: 0.14rem;margin-top: 0.6rem;}
+.addres_res p{color: gray;}
+.addres_img img{width: 0.1rem;height: 0.1rem;}
+.addres_right ul{list-style: none;font-size: 0.2rem;margin-top: 0.7rem;color: gray;}
+.bure{border: 1px solid blue;color: blue;}
+.mren{border: 1px solid red;color: red;}
+/*彩色部分*/
+.cai_xn ul{width: 100%;height: 0.2rem; list-style: none;background-color: gainsboro;margin-top: 0.1rem;}
+.cai_xn ul li img{width: 100%;position: absolute;}
+/*商品展示*/
+.heart_election{width: 100%;}
+.heart_election ul{list-style: none;display: flex;justify-content: space-between;width: 95%;margin: auto;}
+.heart_election ul li img{width: 0.6rem;height: 0.8rem;}
+.heart_election ul li p{font-size: 0.14rem;}
+.nei li{display: flex;justify-content: space-between;}
+.nei .xiao{width: 0.3rem;height: 0.3rem;}
+/*支持配送*/
+.distribution{width: 100%;margin-top: 0.2rem;}
+.distribution ul{width: 97%;margin: auto;list-style: none;display: flex;justify-content: space-between;}
+.distribution ul li p{font-size: 0.14rem;}
+.distribution #right{margin-left: 1.3rem;}
+/*提示*/
+.tips{width: 100%;height: 0.35rem; background-color: darksalmon;opacity: 0.7;}
+.tips ul li{width: 90%;list-style: none;display: flex;justify-content: space-between;margin-top: 0.2rem;line-height: 0.4rem;}
+.tips ul li img{width: 0.15rem;height: 0.15rem;margin-top: 0.1rem;margin-left: 0.35rem;}
+.tips ul li p{font-size: 0.14rem;color: red;}
+/*主内容*/
+.main{width: 100%;background-color: gainsboro;padding-bottom: 0.15rem;}
+/*发票*/
+.invoice{width: 100%;background-color: white;padding-bottom: 0.2rem;}
+.invoice ul{width: 90%;margin: auto;list-style: none;display: flex;justify-content: space-between;}
+.invoice ul li{display: flex;justify-content: space-between;font-size: 0.14rem;margin-top: 0.2rem;}
+/*运险费*/
+.premium{width: 100%;margin-top: 0.15rem;background-color: white;}
+.premium ul{width: 90%;margin: auto;list-style: none;display: flex;justify-content: space-between;}
+.premium ul .pre_right{display: flex;justify-content: space-between;}
+.premium ul li{font-size: 0.14rem;margin-top: 0.2rem;}
+.premium ul li span{font-size: 0.10rem;color: gray;}
+.premium ul li p input{width: 0.35rem;border-radius: 0.1rem;}
+.fuh{font-size: 0.18rem;color: gray;margin-top: -0.05rem;}
+/*商品金额*/
+.amount{width: 100%;background-color: white;margin-top: 0.15rem;padding-top: 0.2rem;padding-bottom: 0.2rem;}
+.amount ul{list-style: none;display: flex;justify-content: space-between;}
+.amount ul li{font-size: 0.14rem;}
+/*尾部*/
+.footer{width: 100%;margin: auto;display: flex;justify-content: space-between;}
+.footer ul{list-style: none;}
+.footer ul li{font-size: 0.14rem;color: red;}
+.footer_left{padding: 0.2rem;}
+.footer_right{background-color: red;height: 100%;padding: 0.2rem;margin-left: 0.2rem;}
+.footer_right p{color: white;font-size: 0.18rem;}

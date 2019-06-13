@@ -1,0 +1,88 @@
+*{margin: 0;padding: 0;}
+.header {
+    width: 100%;
+    height:0.8rem;
+ 
+}
+.shopping_top {
+            width: 99%;
+            margin: auto;
+            height:0.8rem;
+            line-height: 0.8rem;
+            
+        }
+        
+
+
+
+.mine_headpiece{width: 100%;font-family: "微软雅黑";background-color: gainsboro;padding-bottom: 0.1rem;}
+.mine_headpiece_semicircle{width: 100%;list-style: none;}
+.sz_right img{margin-left: 8.5rem;}
+.sj_img img{width: 100%;height: 2.1rem;border-bottom-right-radius: 1rem;border-bottom-left-radius: 1rem;}
+.white_kg{width: 90%;margin: auto;background-color: white;height: 5rem;border-radius: 0.35rem;margin-top: -1rem;z-index: 0.9;}
+.white_kg li{list-style: none;font-size: 0.36rem;}
+.logo img{width: 3rem;height: 3rem;margin-top: -0.3rem;}
+.logo p{margin-left: 3.6rem;margin-top: -1.5rem;}
+.four_zp{display: flex;justify-content: space-between;text-align: center;margin-top: 0.6rem;}
+.member{width: 100%;margin: auto;height: 1.5rem;border-bottom-left-radius: 0.35rem;border-bottom-right-radius: 0.35rem;background-color: black;color: gray;margin-top: 0.4rem;display: flex;justify-content: space-between;}
+.member img{width: 3.5rem;height: 0.8rem;margin-top: 0.35rem;}
+.member p{margin-top: 0.3rem;}
+/*订单*/
+.order{width: 100%;border-bottom: 0.01rem solid gray;padding-bottom: 0.5rem;padding-top: 0.5rem;}
+.order ul{width: 90%;margin: auto; list-style: none;display: flex;justify-content: space-between;font-size: 0.45rem;}
+/*五图标*/
+.five_diagram{width: 100%;margin: auto;background-color: gainsboro;padding-bottom: 0.35rem;}
+.five_diagram_u{list-style: none;display: flex;justify-content: space-around;text-align: center;background-color: white;padding-bottom: 0.3rem;}
+.five_diagram_u li{margin-top: -0.3rem;}
+.five_diagram_u img{width: 0.5rem;height: 0.5rem;}
+.five_diagram_u p{font-size: 0.18rem;}
+/*为您推荐*/
+.recommend img{width: 100%;height: 1.1rem;margin-top: 0.25rem;}
+/*展品区*/
+.exhibits_area{width: 100%;}
+.exhibits_area ul{width: 90%;display: flex;justify-content: space-between;list-style: none;margin: auto;}
+.exhibits_area ul li{width: 45%;text-align: center;}
+.exhibits_area li img{width: 3.7rem;height: 2.1rem;}
+.exhibits_area li p{font-size: 0.30rem;} 
+.exhibits_area li p span{color: gray;margin-left: 0.05rem;}
+/*导航区*/
+ .footer{
+        margin-top: 3rem;
+        position: fixed;
+        bottom:0;
+        width: 100%;
+        height:1rem;
+        
+       background-color: white;
+      
+    }
+     .footer ul{
+            width:80%;
+            margin: 0 auto;
+           list-style: none;
+    display: flex;
+    justify-content: space-between;
+            
+        }
+.footer ul li{
+                width: 0.6rem;
+                position: relative;
+                
+            }
+ .footer ul li img{
+    width: 120%;
+                    position: absolute;
+                    top: 0.06rem;
+                }
+ .footer ul li p{
+                    position: absolute;
+                    top: 0.7rem;
+                    font-size: 0.2rem;
+                    color: gray;
+                    left: 27%;
+                }
+
+
+
+
+

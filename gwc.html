@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="format-detection" content="telephone=no, email=no" />
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" href="css/shopping.css" />
+	</head>
+
+	<body>
+		<div class="shopping_box">
+			<!--头部-->
+			<header style="background-image: url(img/images/bg1_01.png);background-size: 100% 100%; position: fixed;">
+			<div class="shopping_top">
+			<p><span><a href="index.html" style="color: white;"><</a></span><span>购物车(6)</span><span><img src="img/xinxi.png" alt=""align="absmiddle" /></span></p>	
+			</div>
+			</header>
+			<section>
+			<!--全选-->
+			<div class="shopping1" style="height: 0.3rem;">
+			</div>
+				<div class="shopping_input">
+					
+					<input type="checkbox" style=" height: 0.5rem; line-height: 0.5rem;border: 0rem;" />
+					<a><img src="img/icon-kin.png" alt="" align="absmiddle" style="width: 18%;"/>
+					够味达精选网</a>
+					<p> <span style="margin-right: 0.1rem;">领劵</span><span>编辑</span></p>
+				</div>
+				<!--单选1-->
+				<div class="shopping_checkbox">
+				<input type="checkbox" />
+				<img src="img/pd/sf-1.jpg" alt=""  align="absmiddle"/>
+					<div class="shopping_checkbox1">
+						<p style="font-size: 0.13rem;">[黑卡96折]Apple 苹果iPhone 7 (A1660)移动联通电信4G手机 国内行货</p>
+						<p style="color: gray; font-size: 0.12rem;">重量：3.3kg 颜色 标配版 版本5.7英寸</p>
+						<p style="font-size: 0.13rem; color: red; font-weight: 900;" class="span1">100</p>
+					</div>
+					<div class="shopping_count">
+						<input type="button" value="+" onclick="jia()" class="jia1" style="margin: 0rem;"/>
+						<input type="text" value="0" id="input1" style=""/>
+						<input type="button" value="-"  onclick="jian()"/>
+						
+					</div>
+					<p class="span2" style="font-size: 0.14rem;margin-top: 18%;color: red;">￥0.00</p>
+				</div>
+				<!--单选2-->
+				<div class="shopping_checkbox">
+				<input type="checkbox" />
+				<img src="img/pd/sf-1.jpg" alt=""  align="absmiddle"/>
+					<div class="shopping_checkbox1">
+						<p style="font-size: 0.13rem;">[黑卡96折]Apple 苹果iPhone 7 (A1660)移动联通电信4G手机 国内行货</p>
+						<p style="color: gray; font-size: 0.12rem;">重量：3.3kg 颜色 标配版 版本5.7英寸</p>
+						<p style="font-size: 0.13rem; color: red; font-weight: 900;" class="span11">100</p>
+					</div>
+					<div class="shopping_count">
+						<input type="button" value="+" onclick="jia1()" class="jia1" style="margin: 0rem;"/>
+						<input type="text" value="0" id="input5" style=""/>
+						<input type="button" value="-"  onclick="jian1()"/>
+					</div>
+					<p class="span22" style="font-size: 0.14rem;margin-top: 18%;color: red;">￥0.00</p>
+				</div>
+				<!--单选3-->
+				<div class="shopping_checkbox">
+				<input type="checkbox" />
+				<img src="img/pd/sf-1.jpg" alt=""  align="absmiddle"/>
+					<div class="shopping_checkbox1">
+						<p style="font-size: 0.13rem;">[黑卡96折]Apple 苹果iPhone 7 (A1660)移动联通电信4G手机 国内行货</p>
+						<p style="color: gray; font-size: 0.12rem;">重量：3.3kg 颜色 标配版 版本5.7英寸</p>
+						<p style="font-size: 0.13rem; color: red; font-weight: 900;">100</p>
+					</div>
+					<div class="shopping_count">
+						<input type="button" value="+" onclick="jia()" class="jia1" style="margin: 0rem;"/>
+						<input type="text" value="0" id="input1" style=""/>
+						<input type="button" value="-"  onclick="jian()"/>
+					</div>
+					<p class="span2" style="font-size: 0.14rem;margin-top: 18%;color: red;">￥0.00</p>
+				</div>
+				<!--单选-->
+				<div class="shopping_checkbox">
+				<input type="checkbox" />
+				<img src="img/pd/sf-1.jpg" alt=""  align="absmiddle"/>
+					<div class="shopping_checkbox1">
+						<p style="font-size: 0.13rem;">[黑卡96折]Apple 苹果iPhone 7 (A1660)移动联通电信4G手机 国内行货</p>
+						<p style="color: gray; font-size: 0.12rem;">重量：3.3kg 颜色 标配版 版本5.7英寸</p>
+						<p style="font-size: 0.13rem; color: red; font-weight: 900;">100</p>
+					</div>
+					<div class="shopping_count">
+						<input type="button" value="+" onclick="jia()" class="jia1" style="margin: 0rem;"/>
+						<input type="text" value="0" id="input1" style=""/>
+						<input type="button" value="-"  onclick="jian()"/>
+					</div>
+					<p class="span2" style="font-size: 0.14rem;margin-top: 18%;color: red;">￥0.00</p>
+				</div>
+				<!--单选-->
+				<div class="shopping_checkbox">
+				<input type="checkbox" />
+				<img src="img/pd/sf-1.jpg" alt=""  align="absmiddle"/>
+					<div class="shopping_checkbox1">
+						<p style="font-size: 0.13rem;">[黑卡96折]Apple 苹果iPhone 7 (A1660)移动联通电信4G手机 国内行货</p>
+						<p style="color: gray; font-size: 0.12rem;">重量：3.3kg 颜色 标配版 版本5.7英寸</p>
+						<p style="font-size: 0.13rem; color: red; font-weight: 900;">100</p>
+					</div>
+					<div class="shopping_count">
+						<input type="button" value="+" onclick="jia()" class="jia1" style="margin: 0rem;"/>
+						<input type="text" value="0" id="input1" style=""/>
+						<input type="button" value="-"  onclick="jian()"/>
+					</div>
+					<p class="span2" style="font-size: 0.14rem;margin-top: 18%;color: red;">￥0.00</p>
+				</div>
+				<!--单选-->
+				<div class="shopping_checkbox">
+				<input type="checkbox" />
+				<img src="img/pd/sf-1.jpg" alt=""  align="absmiddle"/>
+					<div class="shopping_checkbox1">
+						<p style="font-size: 0.13rem;">[黑卡96折]Apple 苹果iPhone 7 (A1660)移动联通电信4G手机 国内行货</p>
+						<p style="color: gray; font-size: 0.12rem;">重量：3.3kg 颜色 标配版 版本5.7英寸</p>
+						<p style="font-size: 0.13rem; color: red; font-weight: 900;">100</p>
+					</div>
+					<div class="shopping_count">
+						<input type="button" value="+" onclick="jia()" class="jia1" style="margin: 0rem;"/>
+						<input type="text" value="0" id="input1" style=""/>
+						<input type="button" value="-"  onclick="jian()"/>
+					</div>
+					<p class="span2" style="font-size: 0.14rem;margin-top: 18%;color: red;">￥0.00</p>
+				</div>
+				<div class="shopping_amount"style="font-size:0.18rem;display: flex;justify-content: flex-end;margin-bottom: 0.4rem;" >
+					本店总计：<span class="span222">￥0.00</span>
+				</div>
+			</section>
+			<div class="shopping_bottom" style="display: flex;justify-content: space-between;position: fixed;bottom: 0rem;background-color: white; width: 100%;">
+			<a style="font-size: 0.18rem; font-weight: 900;"><input type="checkbox" onclick="alls()">
+				合计:<span class="span222">￥0.00</span></a>
+				<input type="button" value="结算" style="background-color: gold; padding: 0.08rem; font-size: 0.16rem;display: flex;justify-content: flex-end;border: 0;"/>
+			</div>
+		</div>
+		
+
+	</body>
+	<script type="text/javascript" src="js/rem.js"></script>
+	<script type="text/javascript" src="js/shopping.js" ></script>
+	<script>
+
+	</script>
+</html>

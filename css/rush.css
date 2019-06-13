@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.bigbox {
+  width: 100%; }
+  .bigbox header {
+    width: 100%;
+    height: 0.5rem;
+    background-image: url(../img/im/bg1_01.png); }
+    .bigbox header ul {
+      width: 90%;
+      margin: 0 auto;
+      list-style: none;
+      display: flex;
+      justify-content: space-between; }
+      .bigbox header ul li {
+        position: relative;
+        line-height: 0.5rem; }
+        .bigbox header ul li img {
+          position: absolute; }
+        .bigbox header ul li p {
+          font-size: 0.14rem; }
+  .bigbox section {
+    width: 100%; }
+    .bigbox section .pro {
+      width: 100%;
+      height: 0.4rem;
+      border-bottom: 0.01rem solid lightgray; }
+      .bigbox section .pro ul {
+        width: 88%;
+        margin: 0 auto;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        position: relative; }
+        .bigbox section .pro ul li {
+          width: 20%; }
+          .bigbox section .pro ul li p:nth-child(1) {
+            text-align: center;
+            font-size: 0.16rem;
+            color: gray;
+            font-weight: bold; }
+          .bigbox section .pro ul li p:nth-child(2) {
+            text-align: center;
+            font-size: 0.12rem;
+            color: gray; }
+    .bigbox section .hint {
+      width: 100%;
+      height: 0.4rem;
+      background-color: #FFF3DB; }
+      .bigbox section .hint p {
+        font-size: 0.14rem;
+        line-height: 0.4rem;
+        color: red;
+        text-indent: 0.4rem; }
+    .bigbox section .product_pro {
+      width: 100%;
+      height: 6.58rem; }
+      .bigbox section .product_pro div {
+        width: 100%;
+        height: 1.4rem;
+        border-bottom: 0.01rem solid lightgray; }
+        .bigbox section .product_pro div ul {
+          list-style: none;
+          display: flex;
+          justify-content: space-between;
+          height: 100%; }
+          .bigbox section .product_pro div ul li:nth-child(1) {
+            width: 20%;
+            height: 100%; }
+          .bigbox section .product_pro div ul li:nth-child(2) {
+            width: 75%;
+            height: 100%; }
+          .bigbox section .product_pro div ul li {
+            position: relative; }
+            .bigbox section .product_pro div ul li input {
+              width: 0.74rem;
+              height: 0.25rem;
+              background-color: red;
+              color: #ffffff;
+              text-align: center;
+              line-height: 0.25rem;
+              border: 0;
+              position: absolute;
+              right: 0.1rem;
+              top: 0.1rem;
+              border-radius: 0.08rem 0.08rem; }
+            .bigbox section .product_pro div ul li img {
+              position: absolute;
+              width: 0.7rem;
+              height: 0.7rem;
+              bottom: 0.1rem;
+              left: 0.1rem; }
+            .bigbox section .product_pro div ul li p {
+              font-size: 0.14rem;
+              color: gray;
+              margin-top: 0.5rem; }
+            .bigbox section .product_pro div ul li span {
+              position: absolute;
+              color: red;
+              font-size: 0.16rem;
+              bottom: 0.2rem; }
+              .bigbox section .product_pro div ul li span a {
+                font-size: 0.12rem;
+                color: lightgray; }
+              .bigbox section .product_pro div ul li span p {
+                display: inline-block;
+                font-size: 0.12rem;
+                color: lightgray;
+                margin-left: 1.3rem; }
+    .bigbox section #hidden1 {
+      display: none; }
+    .bigbox section #hidden2 {
+      display: none; }
+    .bigbox section #hidden3 {
+      display: none; }
+    .bigbox section #hidden4 {
+      display: none; }
+
+/*# sourceMappingURL=rush.css.map */

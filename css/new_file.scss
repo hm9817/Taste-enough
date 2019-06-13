@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+$border:0;
+@mixin ulbe{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+@mixin im{
+    width: 100%;
+    height: 100%;
+}
+ ::-webkit-scrollbar {
+    display: none;
+    /*隐藏滚轮*/
+}
+.bigbox{
+    width: 100%;
+    .header{
+        width: 100%;
+        margin: 0 auto;
+        height: 0.45rem;
+        background-image: url(../img/im/bg1_01.png);
+        ul{
+            width: 95%;
+            height: 0.45rem;
+            line-height: 0.45rem;
+            margin: auto;
+            @include ulbe;
+            
+            li{
+                width: 20%;
+                height: 0.45rem;
+                line-height: 0.2rem;
+                input{
+                    width: 95%;
+                    height: 0.28rem;
+                    opacity: 0.3;
+                    border: $border;
+                    border-radius: 0.28rem 0.28rem;
+                    font-size: 0.12rem;
+                    color: gray;
+                    text-indent: 0.22rem;
+                    position: relative;
+                    top: -0.2rem;
+                    //padding-top: 0.18rem;
+                    //padding-bottom: 0.08rem;
+                }
+                .serch{
+                    position: absolute;
+                    top: 0.18rem;
+                    left: 0.5rem;
+                }
+               img{
+                   width: 0.2rem;
+                   height: 0.2rem;
+               } 
+               
+                
+            }
+        }
+    }
+    .lunbo{
+        width: 100%;
+        
+        
+    }
+    section{
+        width: 90%;
+        margin: 0 auto;
+        
+        .icon{
+            width: 100%;
+            height: 0.8rem;
+            ul{
+                width: 100%;
+                height: 0.8rem;
+                margin: 0 auto;
+                @include ulbe;
+                li{
+                    width: 18%;
+                    height: 0.8rem;
+                    //text-align: center;
+                    position: relative;
+                    img{
+                       width:60%; 
+                       height:60%;
+                        position: absolute;
+                        top: 0.13rem;
+                        left: 0.08rem;
+                    }
+                    p{
+                        position: absolute;
+                        top: 0.6rem;
+                        font-size: 0.12rem;
+                        color: gray;
+                       
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .discont{
+            width: 100%;
+            height: 0.76rem;
+            ul{
+                width: 100%;
+                height: 100%;
+                @include ulbe;
+                li{
+                    width: 45%;
+                    height: 100%;
+                    position: relative;
+                    img{
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+        .go{
+            width: 100%;
+            height: 1rem;
+            line-height: 1rem;
+            ul{
+                width: auto;
+            white-space: nowrap;
+            overflow: auto;
+                //width: 100%;
+                 overflow-x: auto;
+            overflow-y: hidden;
+                @include ulbe;
+                
+                li{
+                    width: 30%;
+                margin-right: 3%;
+                display: inline-block;
+                    line-height: 1rem;
+                   height: 1rem;
+                   
+                    img{
+                        width:100% ;
+                        height: 100%;
+                        
+                        
+                    }
+                }
+            }
+        }
+        .width_img{
+            width: 100%;
+            height: 1.3rem;
+            margin-top: 0.2rem;
+            img{
+                @include im;
+            }
+        }
+        .product{
+            width: 100%;
+            height: 1.48rem;
+            //border: 0.01rem solid darkred;
+            margin-top: 0.3rem;
+            ul{
+                width: 100%;
+                height: 100%;
+               @include ulbe;
+               //border: 0.01rem solid darkred;
+               li{
+                   width: 1.85rem;
+                   //height: 100%;
+                  // border: 0.01rem solid darkred;
+                   position: relative;
+                   img{
+                       position: absolute;
+                       width: 90%;
+                       height: 0.7rem;
+                       top: 0.1rem;
+                   }
+                   p{
+                       position: absolute;
+                       text-align: center;
+                       top: 0.75rem;
+                       font-size: 0.12rem;
+                   }
+                   span{
+                       position: absolute;
+                       top: 1.25rem;
+                       display: inline-block;
+                       color: red;
+                       font-size: 0.16rem;
+                       a{
+                           color: lightgray;
+                           font-size: 0.12rem;
+                       }
+                   }
+               }
+            }       
+        }
+        
+    }
+    .mine{
+        width: 100%;
+        .width_img{
+            width: 100%;
+            height: 0.5rem;
+            margin-top: -0.3rem;
+            img{
+                @include im;
+            }
+        } 
+        .min_pro{
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 0.7rem;
+           // border: 0.01rem solid blueviolet;
+            ul{
+                @include ulbe;
+                height: 2.1rem;
+               // border: 0.01rem solid darkred;
+                margin-top: 0.1rem;
+                li{
+                    width: 46%;
+                   // border: 0.01rem solid darkred;
+                    //text-align: center;
+                    position: relative;
+                    img{
+                        position: absolute;
+                        width: 80%;
+                        height: 50%;
+                    }
+                    p{
+                        font-size: 0.12rem;
+                        position: absolute;
+                        top: 1.3rem;
+                    }
+                    span{
+                        position: absolute;
+                        top: 1.8rem;
+                        color: red;
+                        font-size: 0.16rem;
+                        a{
+                            color: gray;
+                            font-size: 0.12rem;
+                            
+                        }
+                        span{
+                            width: 40%;
+                     position: absolute;
+                     top: 10%;
+                                left: 105%;
+                    display: inline-block;
+                    color: lightgray;
+                    font-size: 0.1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        margin-top: 1rem;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 0.48rem;
+        background-color: white;
+        // border: 0.01rem solid mediumvioletred;
+        ul {
+            width: 80%;
+            margin: 0 auto;
+            @include ulbe;
+            li {
+                width: 0.38rem;
+                position: relative;
+                img {
+                    position: absolute;
+                    top: 0.06rem;
+                }
+                p {
+                    position: absolute;
+                    top: 0.3rem;
+                    font-size: 0.12rem;
+                    color: gray;
+                    left: -6%;
+                }
+            }
+        }
+    }
+}

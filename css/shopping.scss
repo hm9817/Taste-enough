@@ -1,0 +1,91 @@
+* {
+    padding: 0rem;
+    margin: 0rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+@mixin jusbenn {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+@mixin jusaround {
+    display: flex;
+    justify-content: space-around;
+}
+
+@mixin flex1 {
+    display: flex;
+}
+
+
+.shopping_box {
+    width: 100%;
+    header {
+        width: 100%;
+        margin: auto;
+        .shopping_top {
+            width: 99%;
+            margin: auto;
+            height: 0.3rem;
+            p {
+                color: white;
+                font-size: 0.18rem;
+                @include jusbenn;
+            }
+        }
+    }
+    section {
+        
+        width: 100%;
+        margin: auto;
+        .shopping_input {
+            height: 0.5rem;
+            line-height: 0.5rem;
+            @include jusbenn;
+            font-size: 0.16rem;
+            p {
+                width: 27%;
+                font-weight: 900;
+            }
+        }
+        .shopping_checkbox {
+            width: 100%;
+            background-color: gainsboro;
+            @include jusbenn;
+            margin-top: 0.1rem;
+            input {
+                height: 1rem;
+                line-height: 1rem;
+            }
+            img {
+                 margin-top: 3%;
+                margin-right: 2%;
+                height: 15%;
+                width: 15%;
+            }
+            .shopping_checkbox1 {
+                margin-top: 3%;
+                width: 60%;
+            }
+            .shopping_count {
+                width: 16%;
+                margin-top: 0.2rem;
+                @include jusbenn;
+                input {
+                    width: 20%;
+                    height: 20%;
+                    line-height: 20%;
+                 display: flex;
+                justify-content: flex-end;
+                }
+            }
+            
+        }
+    }
+   
+}

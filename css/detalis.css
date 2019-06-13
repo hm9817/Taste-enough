@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.bigbox {
+  width: 100%; }
+  .bigbox .header {
+    width: 100%;
+    height: 0.9rem;
+    border: 0.01rem solid red;
+    background-image: url(../img/im/bg1_01.png); }
+    .bigbox .header ul {
+      width: 95%;
+      height: 0.9rem;
+      line-height: 0.9rem;
+      margin: auto;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      border: 0.01rem solid blueviolet; }
+      .bigbox .header ul li {
+        width: 10%;
+        height: 0.9rem;
+        line-height: 0.9rem; }
+        .bigbox .header ul li img {
+          width: 0.4rem;
+          height: 0.4rem;
+          margin-top: -0.2rem; }
+  .bigbox .lunbo {
+    width: 100%;
+    height: 7.4rem;
+    border: 0.01rem solid red; }
+    .bigbox .lunbo div div div {
+      position: relative; }
+      .bigbox .lunbo div div div img {
+        position: absolute;
+        width: 100%; }
+  .bigbox section {
+    width: 100%;
+    background-color: #F1F2F6; }
+    .bigbox section .pro {
+      width: 100%;
+      height: 1.2rem;
+      border: 1px solid darkred;
+      position: relative;
+      background-color: #FFFFFF; }
+      .bigbox section .pro span {
+        position: absolute;
+        color: red;
+        font-size: 0.18rem;
+        top: 0.15rem;
+        left: 0.2rem; }
+        .bigbox section .pro span a {
+          position: absolute;
+          top: 0.02rem;
+          left: 0.55rem;
+          color: lightgray;
+          font-size: 0.14rem;
+          text-decoration: line-through; }
+        .bigbox section .pro span p {
+          display: inline-block;
+          width: 0.6rem;
+          height: 0.28rem;
+          line-height: 0.28rem;
+          border: 1px solid red;
+          color: red;
+          text-align: center;
+          font-size: 0.16rem;
+          top: -0.01rem;
+          left: 0.9rem; }
+      .bigbox section .pro p {
+        position: absolute;
+        color: #000000;
+        font-weight: bold;
+        font-size: 0.16rem;
+        top: 0.43rem;
+        left: 0.2rem; }
+      .bigbox section .pro a {
+        position: absolute;
+        color: gray;
+        font-weight: bold;
+        font-size: 0.12rem;
+        top: 0.86rem;
+        left: 0.2rem; }
+    .bigbox section .amac {
+      width: 90%;
+      height: 0.7rem;
+      margin: 0 auto;
+      background-color: #F5F5F5;
+      position: relative; }
+      .bigbox section .amac span {
+        width: 1rem;
+        display: inline-block;
+        position: absolute;
+        color: gray;
+        font-size: 0.14rem;
+        left: 0.3rem;
+        top: 0.2rem; }
+        .bigbox section .amac span img {
+          width: 0.35rem;
+          height: 0.35rem; }
+        .bigbox section .amac span span {
+          left: 1rem;
+          top: 0.01rem; }
+    .bigbox section .width_img {
+      width: 90%;
+      height: 0.8rem;
+      margin: 0 auto;
+      position: relative;
+      top: 0.1rem; }
+      .bigbox section .width_img img {
+        position: absolute;
+        width: 100%;
+        height: 100%; }
+    .bigbox section .more {
+      width: 90%;
+      height: 5.8rem;
+      margin: 0 auto;
+      margin-top: 0.1rem;
+      border: 1px solid red; }
+      .bigbox section .more ul {
+        width: 100%;
+        height: 100%; }
+        .bigbox section .more ul li {
+          width: 100%;
+          height: 16%;
+          border-bottom: 1px solid lightgray;
+          position: relative; }
+          .bigbox section .more ul li p {
+            position: absolute;
+            color: #000000;
+            font-weight: bold;
+            font-size: 0.16rem;
+            top: 0.4rem; }
+            .bigbox section .more ul li p span {
+              color: gray;
+              font-size: 0.16rem;
+              margin-left: 0.2rem; }
+    .bigbox section .versace {
+      width: 100%;
+      height: 1.5rem;
+      background-color: #F5F5F5; }
+      .bigbox section .versace ul {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        list-style: none;
+        display: flex;
+        justify-content: space-between; }
+        .bigbox section .versace ul li {
+          width: 50%; }
+          .bigbox section .versace ul li ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            margin-left: -0.01rem; }
+            .bigbox section .versace ul li ul li {
+              position: relative; }
+              .bigbox section .versace ul li ul li img {
+                position: absolute;
+                width: 1.2rem;
+                height: 1rem;
+                top: 0.2rem; }
+              .bigbox section .versace ul li ul li p {
+                position: absolute;
+                color: #000000;
+                font-size: 0.16rem;
+                font-weight: bold;
+                top: 0.25rem; }
+              .bigbox section .versace ul li ul li span {
+                position: absolute;
+                color: #000000;
+                font-size: 0.16rem;
+                top: 0.6rem; }
+    .bigbox section .more_pro {
+      width: 100%;
+      height: 3.1rem;
+      margin-top: 0.1rem;
+      border: 1px solid darkred;
+      background-color: #ffffff; }
+      .bigbox section .more_pro ul {
+        width: 100%;
+        height: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        border: 0.01rem solid darkred; }
+        .bigbox section .more_pro ul li {
+          width: 1.7rem;
+          height: 2.7rem;
+          border: 0.01rem solid darkred;
+          position: relative; }
+          .bigbox section .more_pro ul li img {
+            position: absolute;
+            width: 1.6rem;
+            height: 1.6rem;
+            top: 0.1rem;
+            border: 1px solid red;
+            left: 0.05rem; }
+          .bigbox section .more_pro ul li p {
+            position: absolute;
+            text-align: center;
+            top: 1.7rem;
+            font-size: 0.16em; }
+          .bigbox section .more_pro ul li span {
+            position: absolute;
+            top: 2.3rem;
+            left: 0.2rem;
+            display: inline-block;
+            color: red;
+            font-size: 0.16rem; }
+            .bigbox section .more_pro ul li span a {
+              color: lightgray;
+              font-size: 0.12rem;
+              text-decoration: line-through; }
+    .bigbox section .diim {
+      width: 100%; }
+      .bigbox section .diim img {
+        width: 100%; }
+
+/*# sourceMappingURL=detalis.css.map */

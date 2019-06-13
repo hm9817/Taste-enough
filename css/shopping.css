@@ -1,0 +1,63 @@
+* {
+  padding: 0rem;
+  margin: 0rem; }
+
+a {
+  text-decoration: none; }
+
+.shopping_box {
+  width: 100%; }
+  .shopping_box header {
+    width: 100%;
+    margin: auto; }
+    .shopping_box header .shopping_top {
+      width: 99%;
+      margin: auto;
+      height: 0.3rem; }
+      .shopping_box header .shopping_top p {
+        color: white;
+        font-size: 0.18rem;
+        display: flex;
+        justify-content: space-between; }
+  .shopping_box section {
+    width: 100%;
+    margin: auto; }
+    .shopping_box section .shopping_input {
+      height: 0.5rem;
+      line-height: 0.5rem;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.16rem; }
+      .shopping_box section .shopping_input p {
+        width: 27%;
+        font-weight: 900; }
+    .shopping_box section .shopping_checkbox {
+      width: 100%;
+      background-color: gainsboro;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 0.1rem; }
+      .shopping_box section .shopping_checkbox input {
+        height: 1rem;
+        line-height: 1rem; }
+      .shopping_box section .shopping_checkbox img {
+        margin-top: 3%;
+        margin-right: 2%;
+        height: 15%;
+        width: 15%; }
+      .shopping_box section .shopping_checkbox .shopping_checkbox1 {
+        margin-top: 3%;
+        width: 60%; }
+      .shopping_box section .shopping_checkbox .shopping_count {
+        width: 16%;
+        margin-top: 0.2rem;
+        display: flex;
+        justify-content: space-between; }
+        .shopping_box section .shopping_checkbox .shopping_count input {
+          width: 20%;
+          height: 20%;
+          line-height: 20%;
+          display: flex;
+          justify-content: flex-end; }
+
+/*# sourceMappingURL=shopping.css.map */

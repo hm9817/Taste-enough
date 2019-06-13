@@ -1,0 +1,69 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+::-webkit-scrollbar {
+  display: none;
+  /*闅愯棌婊氳疆*/ }
+
+header {
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem; }
+  header .shopping_top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: white; }
+    header .shopping_top span {
+      color: gray;
+      font-size: 1.5rem; }
+
+section {
+  width: 100%; }
+  section img {
+    width: 100%; }
+
+.center {
+  width: 100%;
+  margin-top: -0.5rem; }
+  .center img {
+    width: 100%; }
+
+footer {
+  width: 100%;
+  background-color: #FDF0D2;
+  height: 4rem;
+  line-height: 4rem;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0rem;
+  margin-top: 3rem;
+  padding-top: 1rem; }
+  footer a {
+    width: 35%;
+    display: block;
+    color: white;
+    font-size: 1.18rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 0.71rem; }
+  footer a:nth-child(1) {
+    text-align: center;
+    background-color: #E5133D; }
+  footer a:nth-child(2) {
+    text-align: center;
+    background-color: #F5751C; }
+
+/*# sourceMappingURL=my-invitation.css.map */

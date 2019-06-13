@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@mixin ulbe{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+@mixin ular{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.bigbox{
+    .mine{
+        width: 100%;
+        height: 23.5rem;
+        ul{
+            width: 95%;
+            height: 100%;
+            @include ulbe;
+           
+            li{
+                width: 15%;
+                height: 100%;
+                            }
+            li:nth-child(1){
+                div{ 
+                    p{
+                        font-size: 0.14rem;
+                        color: #262626;
+                        line-height: 0.5rem;
+                        text-indent: 0.2rem;
+                    }
+                
+                }
+            }
+            li:nth-child(2){
+                //text-align: center;
+                img{
+                    width: 98%;
+                    height: 2.3rem;
+                    margin-top: 0.2rem;
+                    margin-left: 0.05rem;
+                }
+                .hot{
+                    width: 100%;
+                    height: 3.35rem;
+                    position: relative;
+                    span{
+                        top: -10%;
+                        position: absolute;
+                        color: gray;
+                        font-size: 0.14rem;
+                    }
+                    ul{
+                        @include ular;
+                        width: 100%;
+                        height: 30%;
+                        margin-top: 0rem;
+                        li{
+                            width: 30%;
+                            text-align: center;
+                            position: relative;
+                            img{
+                                position: absolute;
+                                width: 0.4rem;
+                                height: 0.5rem;
+                                left: 35%;
+                                top: -0.1rem;
+                            }
+                            p{
+                                position: absolute;
+                                font-size: 0.12rem;
+                                top: 0.7rem;
+                                left: 41%;
+                            }
+                        }
+                    }
+                }
+                .gray_more{
+                    width: 98%;
+                    height: 2.5rem;
+                    position: relative;
+                    top: 0.25rem;
+                    left: 0.05rem;
+                    span{
+                        position: absolute;
+                        color: gray;
+                        font-size: 0.14rem;
+                    }
+                    div{
+                        position: absolute;
+                        top: 0.2rem;
+                        width: 100%;
+                        height: 2.3rem;
+                        background-color: lightgray;
+                    }
+                }
+            }
+        }
+    }
+}
